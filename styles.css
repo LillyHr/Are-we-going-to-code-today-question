@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+h2 {
+    padding-bottom: 200px;
+    font-size: 3rem;
+}
+
+#good-button {
+    position: absolute;
+    white-space: nowrap;
+    top: 47,5%;
+    left: 40%;
+    font-size: 2rem;
+}
+
+#evil-button {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 2rem;
+}
